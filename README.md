@@ -1,59 +1,65 @@
-# 🏪 Global Superstore 2016 Sales Analysis
+# 📊 Global Superstore 2016 Sales Analysis
 
 ## 📌 Project Overview
-This project analyzes the **Global Superstore 2016** dataset to gain insights into sales trends, profitability, and customer purchasing behavior.  
-It uses Python for data analysis and visualization, focusing on identifying patterns that can help improve business performance.
+This project performs an **Exploratory Data Analysis (EDA)** on the **Global Superstore 2016** dataset to uncover insights about sales performance, profitability, customer behavior, and product trends.
 
 ---
 
 ## 📂 Dataset Information
-- **File Name:** `global_superstore_2016.xlsx`
-- **Source:** [Global Superstore Dataset](https://www.kaggle.com/datasets) *(or specify actual source if different)*
-- **Description:** Contains information on orders placed in a fictional superstore, including:
-  - Order details (ID, date, ship mode)
+- **File:** `global_superstore_2016.xlsx`
+- **Description:** Contains transactional data from a fictional superstore including:
+  - Order details
   - Customer information
-  - Product categories and subcategories
+  - Product details
   - Sales, profit, and quantity
-  - Geographic data (Region, Country)
+  - Geographic location
 
 ---
 
-## 🛠️ Tools & Libraries Used
-- **Python** (Data Analysis & Visualization)
-- **Pandas** – Data manipulation
-- **Matplotlib / Seaborn** – Data visualization
-- **Jupyter Notebook** – Analysis and documentation
+## 🛠️ Tools & Libraries
+- **Python 3**
+- **pandas** – Data manipulation
+- **numpy** – Numerical operations
+- **matplotlib** – Data visualization
+- **seaborn** – Statistical plotting
+- **Jupyter Notebook** – Interactive analysis
 
 ---
 
-## 📊 Analysis Performed
-1. **Data Cleaning**
-   - Removed null and duplicate entries
-   - Converted date columns to datetime format
+## 🔍 Analysis Steps in the Notebook
+1. **Data Loading & Inspection**
+   - Loaded dataset using `pandas.read_excel`
+   - Viewed shape, column names, data types, and sample records
+   - Checked for missing values and duplicates
+   - Summary statistics with `.describe()`
 
-2. **Exploratory Data Analysis (EDA)**
-   - **Sales Trends:** Monthly and quarterly trends
-   - **Category Analysis:** Sales and profit by category & sub-category
-   - **Geographical Insights:** Sales by region & country
-   - **Profitability Analysis:** Identify high and low profit segments
-   - **Shipping Mode Analysis:** Impact of delivery type on sales and profit
+2. **Basic Metrics**
+   - Count of unique customers and products
+   - Identified country with highest sales
+   - Top 10 products by **Sales** and **Profit**
 
 3. **Visualizations**
-   - Monthly Sales Trend bar chart
-   - Profit vs. Sales scatter plots
-   - Top 10 profitable products
-   - Sales distribution by category
+   - Histogram of Sales distribution
+   - Log-transformed Sales distribution
+   - Scatter plot of **Sales vs Profit**
+   - Monthly sales trends
+   - Sales and profit by category & sub-category
+
+4. **Group Analysis**
+   - Aggregated sales by month
+   - Category-wise and region-wise analysis
 
 ---
 
 ## 📈 Key Insights
-- Certain months show peak sales, indicating seasonality.
-- Some product categories drive sales but have low profit margins.
-- Specific regions outperform others in revenue generation.
+- Sales distribution is right-skewed; most orders have low sales value.
+- Certain products generate high revenue but low profit margins.
+- Clear seasonal trends with peaks in certain months.
+- Furniture category has lower profitability compared to Technology.
 
 ---
 
-## 🚀 How to Run This Project
+## 🚀 How to Run
 1. Clone this repository:
    ```bash
    git clone https://github.com/subhiksha-kodi/EDA-PROJECT---GLOBAL-SUPERSTORE-SALES-ANALYSIS.git
