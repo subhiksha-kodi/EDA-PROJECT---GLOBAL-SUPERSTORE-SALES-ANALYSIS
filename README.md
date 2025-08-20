@@ -39,11 +39,32 @@ This project performs an **Exploratory Data Analysis (EDA)** on the **Global Sup
    - Top 10 products by **Sales** and **Profit**
 
 3. **Visualizations**
-   - Histogram of Sales distribution
-   - Log-transformed Sales distribution
-   - Scatter plot of **Sales vs Profit**
-   - Monthly sales trends
-   - Sales and profit by category & sub-category
+   - Histogram of Sales distribution  
+     ![Sales Distribution](plots/Sales.png)
+
+   - Log-transformed Sales distribution  
+     ![Log Sales Distribution](plots/Log_sales.png)
+
+   - Scatter plot of **Sales vs Profit**  
+     ![Sales vs Profit](plots/Sales_vs_profit.png)
+
+   - Monthly sales trends  
+     ![Monthly Sales Trend](plots/Monthly_sales_trend.png)
+
+   - Sales and profit by category & sub-category  
+     ![Profit vs Loss by Category](plots/profitloss_category.png)
+
+   - Boxplot of Profit distribution  
+     ![Profit Distribution](plots/Profit.png)
+
+   - Profit vs. Loss (Order Level)  
+     ![Profit vs Loss](plots/Profit_vs_loss.png)
+
+   - Sales per region  
+     ![Sales per Region](plots/Sales_per_region.png)
+
+   - Yearly sales trend  
+     ![Yearly Sales Trend](plots/Yearly_sales_trend.png)
 
 4. **Group Analysis**
    - Aggregated sales by month
